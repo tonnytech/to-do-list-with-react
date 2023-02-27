@@ -7,8 +7,12 @@ import TodosLogic from './components/todosLogic';
 function App() {
   return (
     <>
-    <Header />
-    <TodosLogic />
+    <div className='wrapper'>
+      <div className="todos">
+        <Header />
+        <TodosLogic />
+      </div>
+    </div>
     </>
   );
 }
